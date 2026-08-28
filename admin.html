@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ABC Academy — Easy Admin</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/admin.css"></head>
+<body><div class="bg"></div>
+<header class="top glass"><div class="brand"><img id="adminLogo" src="assets/logo.png" alt="ABC"><div><b>ABC ACADEMY</b><small>NO-CODE WEBSITE MANAGER</small></div></div><div class="top-actions"><a href="index.html" target="_blank">Interest ↗</a><a href="education.html" target="_blank">Education ↗</a><a href="services.html" target="_blank">Services ↗</a><button id="resetBtn">Reset demo</button></div></header>
+<main>
+<section id="login" class="login glass"><img src="assets/logo.png" alt="ABC logo"><div class="eyebrow">NO CODING NEEDED</div><h1>Manage all 3 websites<br><em>in one place.</em></h1><p>Edit words, photos, courses, services, carousels, alumni, reviews, video and map from simple forms.</p><input id="pin" type="password" inputmode="numeric" placeholder="Admin PIN"><button class="primary" id="loginBtn">Open Admin</button><small>Demo PIN: <b>1234</b></small></section>
+<section id="dashboard" hidden>
+<div class="dash-head"><div><div class="eyebrow">ABC ACADEMY · EASY EDITOR</div><h1>Website <em>Manager</em></h1><p>Choose a site below. Change the content, add images and press Save.</p></div><button class="primary" id="saveBtn">Save all changes</button></div>
+<div class="site-switcher"><button class="site-btn active" data-site="index"><strong>01</strong><span>Interest Page</span><small>Start / choice page</small></button><button class="site-btn" data-site="education"><strong>02</strong><span>Education</span><small>Courses / alumni / video</small></button><button class="site-btn" data-site="services"><strong>03</strong><span>Services</span><small>Beauty / fashion / portfolio</small></button><button class="site-btn" data-site="common"><strong>04</strong><span>Common</span><small>Business / contact / map</small></button></div>
+<div class="layout"><aside class="side glass" id="siteNav"></aside><div class="editor" id="editor"></div></div>
+</section></main>
+<script src="assets/cms-site.js"></script><script src="assets/admin.js"></script></body></html>
